@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>WhatsApp Crash</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00ff00;
+      font-family: monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+    .warning {
+      font-size: 1.8rem;
+      color: red;
+      animation: blink 1s infinite;
+      margin-bottom: 20px;
+    }
+    @keyframes blink {
+      0% {opacity: 1;}
+      50% {opacity: 0;}
+      100% {opacity: 1;}
+    }
+    .loader {
+      border: 6px solid #333;
+      border-top: 6px solid #00ff00;
+      border-radius: 50%;
+      width: 50px;
